@@ -38,13 +38,13 @@ Descarga git para Windows
 Descarga git para Linux
 
 <h3>crea un repositorio nuevo</h3>
-crea un directorio nuevo, ábrelo y ejecuta
-git init
+crea un directorio nuevo, ábrelo y ejecuta<br>
+<I>git init</i>
 para crear un repositorio de git nuevo.
 
 <h3>hacer checkout a un repositorio</h3>
-crea una copia local del repositorio ejecutando
-git clone /path/to/repository
+crea una copia local del repositorio ejecutando<br>
+<i>git clone /path/to/repository</i>
 al utilizar un servidor remoto, el comando será
 git clone username@host:/path/to/repository
 
