@@ -10,11 +10,11 @@ Una vez instalas GIT, debes configurarlo:
 
 Generando tu Public Key:
 
-ssh-keygen 
+<i><b>ssh-keygen<b><i><br> 
 
 Leyendo tu llave para copiarla a Github:
 
-cat ~/.ssh/id_rsa.pub
+<i><b>cat ~/.ssh/id_rsa.pub<b><i><br>
 
 Arrancando tu proyecto:
 
@@ -30,7 +30,7 @@ Arrancando tu proyecto:
 
 /************************************GIT desde 0 - Por @klinsmannf****************************************/
 
-<h3>configuración</h3>
+<h3>Configuración</h3>
 Descarga git para OSX
 
 Descarga git para Windows
@@ -39,12 +39,12 @@ Descarga git para Linux
 
 <h3>crea un repositorio nuevo</h3>
 crea un directorio nuevo, ábrelo y ejecuta<br>
-<I>git init</i>
+<I><b>git init<b></i><br>
 para crear un repositorio de git nuevo.
 
 <h3>hacer checkout a un repositorio</h3>
 crea una copia local del repositorio ejecutando<br>
-<i>$ git clone /path/to/repository</i><br><b><i><br>
+<i><b>$ git clone /path/to/repository</b></i><br>
 al utilizar un servidor remoto, el comando será<br>
 <i><b>$ git clone username@host:/path/to/repository<b><i><br>
 
@@ -60,7 +60,7 @@ Este es el primer paso en el flujo de trabajo básico. Para en realidad hacer co
 <i><b>$ git commit -m "Commit message"<b><i><br>
 Ahora el archivo esta incluído en el HEAD, pero aún no en tu repositorio remoto.<br>
 
-<h3>envío de cambios</h3>
+<h3>Envío de cambios</h3>
 Tus cambios están ahora en el HEAD de tu copia local. Para enviar esos cambios a tu repositorio remoto ejecuta<br>
 <i><b>$ git push origin master<b><i><br>
 Reemplaza master por la rama a la cual desees enviar tus cambios.  
